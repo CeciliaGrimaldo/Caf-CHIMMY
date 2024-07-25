@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(100, 63, 20);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+ width: 1200px;
+background:white;
+ margin: 25px auto;
+}
+.superior{
+    background: #f7c17b;
+    overflow: hidden; 
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}
+/*estilos para el menú de opciones*/
+ .menu{
+ float:left;
+    padding:50px; 
+}
+   
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+        color: white;
+        padding: 30px;
+        text-decoration: none;
+        border:1px solid white;
+    }
+.opciones li a:hover{
+    background: #7a3106;
+}
+/*estilos para el cuerpo*/
+.cuerpo{
+    overflow: hidden;
+}
+.caja{
+    float: left;
+    width: 380px;
+    margin: 10px;
+    text-align: center;
+}
+.tipos{
+   color: rgb(170, 119, 60);
+    text-align: center; 
+    padding: 10px 0; 
+}
+ 
+.efecto:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.contenido{
+   padding: 20px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulo{
+    text-align: center;
+    padding: 15px 0 15px 0;
+    color: black;
+}
+/*estilos del footer*/ 
+.pie{
+    background: #dfa786;
+    overflow: hidden;
+}
+.izquierda{
+   float: left; 
+   width: 500px;
+   padding: 15px;
+}
+.derecha{
+   float: left;
+   width: 550px; 
+}
+.siguenos{
+    padding:20px 0; 
+    border: 1px;
+}
+.inicio{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    float: left;
+    padding: 80px;
+    color: white;
+    width: 1200px; 
+    text-align: center;
+    text-overflow: 28px;
+}
+.encabezado{
+    padding: 10px;
+    text-align: center
+}
+.nosotros{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    padding-left: 80;
+    color: white;
+}
+  
+
+
